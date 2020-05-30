@@ -1,9 +1,160 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>Hello Coursera!</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			*{
+				box-sizing: border-box; /*apply to all element*/
+				margin: 0;
+				padding: 0;
+			}
+
+			body{
+				font-size: 110%;
+
+			}
+			h1 {
+				text-align: center;
+				color:blue;
+				background-color: #00ffdd;
+				padding: 0px 30px 0px 30px; /*top right bottom left*/
+				border: 2px solid black;
+				margin: 40px;
+				width: 300px; /*this fixed the box size*/
+			}
+			#box {
+				background-color: white;
+				padding: 20px;
+				border: 2px solid black;
+				margin: 20px;
+				width: 300px;
+				height: 500px;
+				overflow: auto;
+			}
+			#bg {
+				width: 500px;
+				height: 500px;
+				background-color:blue;
+				background-image: url("two-rabbits-playing.jpg");
+				background-repeat: no-repeat;
+				background-position:bottom left;
+				background-size: contain; /*or cover; or 100% 100%;*/
+			}
+			div > section{
+				clear:left; /*nothing allowed to be floating to the left of it*/
+			}
+			div.float{
+				background-color: #00FFFF;
+			}
+			p.float{
+				width: 25%;
+				height: 300px;
+				border: 1px solid black;
+				float: left;
+				overflow: auto;
+			}
+			#p1{
+				background-color: #A52A2A;
+
+			}
+			#p2{
+				background-color: #DEB887;
+			}
+			#p3{
+				background-color: #5F9EA0;
+			}
+			#p4{
+				background-color: #FF7F50;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Hello Coursera. It's a great course</h1>
+		<header>
+			header element - some header information. Usualy consists of company logo, some tag line, etc. Sometimes, navigation is contained in the deader as well.
+			<nav> navigation element - usually contains links to different parts of the website.</nav>
+		</header>
+		<h1>Hello Coursera. It's a great course. Hey.</h1>
+		<a>I love <div>gardening<span>!</span></div></a>
+		<a href="#footer"> Go to Footer!</a>
+		<div class="float">
+			<p id="p1" class="float">An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of</p>
+			<p id="p2" class="float">An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of</p>
+			<p id="p3" class="float">An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of</p>
+			<p id="p4" class="float">An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of</p>
+			<section>This is regular content continuing after the paragraph boxes.</section>
+		</div>
+
+		<div id="box"> 
+			<div id="content">An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of An inline element does not start on a new line and only takes up as much ... The aosidfj element has no required attributes, but style , class and id are common. ... It is the most populous city in the United Kingdom, with a metropolitan area of
+			</div>
+		</div>
+		<div id="bg"> The Background Property </div>
+		<section style="font-size: 2em;">
+			section A
+			<article style="font-size: 2em;">article 1</article>
+			<article style="font-size: 30vh;">article 2</article>
+			<article>article 3</article>
+		</section>		
+		<section>
+			section B
+			<article style="margin-bottom: 30px">article 4</article>
+			<article style="margin-top: 0px">article 5</article>
+			<article>article 6
+				<span style="margin-right: 10px"> lalala </span>
+				<span style="margin-left: 0px"> lalal </span>
+			</article>
+
+		</section>
+		<br>
+		<div>
+			The following is an unordered list of what I want to buy:
+			<ul>
+				<li>&lt;milk&gt;</li>
+				<li>&copy;cookies
+					<ul>
+						<li>chocolate flavor</li>
+						<li>vanila flavor</li>
+						<li>icecream flavor</li>
+					</ul>
+				</li>
+				<li>seasonings
+					<ul>
+						<li>salt</li>
+						<li>pepper</li>
+						<li>ginger powder</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+			<br>text
+		</div>
+
+		<footer id="footer">
+			<a href="https://www.google.com", target="_blank", title="a link to google">Link to Google.com</a>
 	</body>
 </html>
