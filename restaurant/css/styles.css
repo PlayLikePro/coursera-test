@@ -1,0 +1,206 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url(../images/restaurant-logo_large.png) no-repeat;
+	background-size: 100%;
+	width: 150px;
+	height: 150px;
+	margin: -20px 0px 0px 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {/*Restaurant Name*/
+	font-family: 'Lora', sans-serif;
+	color: #557c3e;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top:0;
+	margin-bottom: 0;
+	line-height: .8;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {/* Kosher cert*/
+	color: #000;
+	text-transform: uppercase;
+	font-size: .8em;
+	margin-top: 15px;
+}
+.navbar-brand p span { /* <span>kosher certified</span> */
+	vertical-align: middle
+}
+
+.navbar-toggler-icon {
+	color: #61122f;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(97, 18, 47, 0.5);
+  border-color: rgba(97, 18, 47, 0.5);
+}
+.navbar-light .navbar-toggler-icon { /*don't know how to adjust color yet*/
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, .5' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Home Page */
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	position: relative;
+	border: 1px solid #3F0C1F;
+}
+.tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+	background: url('../images/menu-tile.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#specials-tile {
+	background: url('../images/specials-tile.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#map-tile {
+	overflow: hidden;
+	background-position: center;
+
+}
+
+.tile span{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	background-color: #000;
+	opacity: .6;
+	color: #fff;
+
+}
+
+
+/* End Home Page */
+
+
+/*@media (min-width: 800px) {
+	.navbar-toggler {
+    	display: 1;
+  	}
+}*/
+
+/***************Large devices only ****************/
+@media (min-width: 1200px) {
+	/* End Header*/
+	
+	/* End Header*/
+
+	/* Home Page */
+	.container .jumbotron {
+	background: url("../images/jumbotron_1200.jpg") no-repeat;
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+}
+	/* End Home Page */
+}
+/***************Medium devices only ****************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* End Header*/
+
+	/* End Header*/
+
+	/* Home Page */
+	.container .jumbotron {
+	background: url("../images/jumbotron_1200.jpg") no-repeat;
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+}
+	/* End Home Page */
+
+}
+/***************Small devices only ****************/
+@media (min-width: 768px) and (max-width: 991px) {
+	/* Header */
+	#logo-img {
+		width: 15vw;
+		height: 15vw;
+		margin: -20px 0px 0px 0;
+	}
+	.navbar-brand h1 {/*Restaurant Name*/
+		font-size: 3.6vw;
+		margin-top:0;
+		margin-bottom: 0;
+		line-height: .8;
+	}
+	.navbar-brand p {/* Kosher cert*/
+		font-size: 1.8vw;
+		margin-top: 15px;
+	}
+	/* End Header*/
+
+	/* Home Page */
+	.container .jumbotron {
+	background: url("../images/jumbotron_992.jpg") no-repeat;
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+}
+	/* End Home Page */
+}
+/***************Extra Small devices only ****************/
+@media (max-width: 767px) {
+	/* Header */
+	#logo-img {
+		width: 15vw;
+		height: 15vw;
+		margin: -20px 0px 0px 0;
+	}
+	.navbar-brand h1 {/*Restaurant Name*/
+		/*font-size: 0.9em;*/
+		font-size: 3.6vw;
+		margin-top:0;
+		margin-bottom: 0;
+		line-height: .8;
+	}
+	.navbar-brand p {/* Kosher cert*/
+		font-size: 1.8vw;
+		margin-top: 15px;
+	}
+	/* End Header */
+
+	/* Home Page */
+	.container .jumbotron {
+	background: url("../images/jumbotron_768.jpg") no-repeat;
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+}
+	/* End Home Page */
+}
