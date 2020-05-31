@@ -103,10 +103,32 @@ body {
 	color: #fff;
 
 }
-
-
 /* End Home Page */
 
+
+/* Footer */
+footer {
+	position: absolute;
+	left: 0px;
+	background-color: black;
+	width: 100vw;
+	margin: 0 auto 0 auto;
+}
+
+#hours, #address, #testimonials {
+
+}
+
+hr{
+	width:66%;
+	background-color: white;
+	opacity: .8;
+}
+.copyright{
+	width: 100%;
+	text-align: center;
+}
+/* End Footer */
 
 /*@media (min-width: 800px) {
 	.navbar-toggler {
@@ -114,7 +136,7 @@ body {
   	}
 }*/
 
-/***************Large devices only ****************/
+/***************Extra Large devices only ****************/
 @media (min-width: 1200px) {
 	/* End Header*/
 	
@@ -123,13 +145,13 @@ body {
 	/* Home Page */
 	.container .jumbotron {
 	background: url("../images/jumbotron_1200.jpg") no-repeat;
-	height: 70vh;
+	height: 50vh;
 	background-size: cover;
 	background-position: center;
 }
 	/* End Home Page */
 }
-/***************Medium devices only ****************/
+/***************Large devices only ****************/
 @media (min-width: 992px) and (max-width: 1199px) {
 	/* End Header*/
 
@@ -145,7 +167,7 @@ body {
 	/* End Home Page */
 
 }
-/***************Small devices only ****************/
+/***************Medium devices only ****************/
 @media (min-width: 768px) and (max-width: 991px) {
 	/* Header */
 	#logo-img {
@@ -174,7 +196,7 @@ body {
 }
 	/* End Home Page */
 }
-/***************Extra Small devices only ****************/
+/*************** Small devices only ****************/
 @media (max-width: 767px) {
 	/* Header */
 	#logo-img {
@@ -201,6 +223,13 @@ body {
 	height: 50vh;
 	background-size: cover;
 	background-position: center;
-}
+	}
 	/* End Home Page */
+
+	/* Footer */
+	#hours, #address, #testimonials {
+	text-align: center;
+	}
+	/* End Footer */
+
 }
