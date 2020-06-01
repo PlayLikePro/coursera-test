@@ -105,7 +105,60 @@ body {
 }
 /* End Home Page */
 
+/*/* Menu Category Page */
+.category-tile {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: 15px auto 15px auto;
 
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: .7;
+}
+.category-tile:hover img{
+	position: absolute;
+	/*box-shadow:  0 1px 5px 1px #cccccc;*/
+	width: 105%;
+	height: 105%;
+}
+/* End Menu Category Page */
+
+/* Single Category Page*/
+.item-photo {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+.item-photo img{
+	width:100%;
+}
+.item-photo .item-price{
+	text-align: right;
+}
+.item-photo .item-price span{
+	font-size: .6em;
+}
+.item-description {
+	margin: 20px 0 0 0;
+}
+.item-description .item-details{
+	font-style: italic;
+	font-weight: lighter;
+}
+
+/* End Single Category Page*/
+
+*/
 /* Footer */
 footer {
 	position: absolute;
